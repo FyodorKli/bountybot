@@ -79,7 +79,7 @@ for website in websites:
 		pass
 
 	if output != "":
-		writer = open("Results\\"+website+".txt","a") 
+		writer = open("Results/"+website+".txt","a") 
 		writer.write(str(datetime.datetime.now())+"\nBountyBot 1.0\ngithub.com/xyele\ntwitter.com/rootxyele")
 		writer.write("\nTarget : " + website)
 		writer.write(output)
